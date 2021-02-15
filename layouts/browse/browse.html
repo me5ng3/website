@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <div class="content" style="padding-top: 2rem;">
+  {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+    <h2 id="paragraph" style="padding-left: 10px; margin-top: 1rem;">{{ $taxonomyname | humanize }}</h2>
+      {{ range $name, $value := $taxonomy }}
+        {{ with $.Site.GetPage (printf "/%s/%s" $taxonomyname $name) }}
+          <a href={{ .RelPermalink }} class="tagChip hover:shadow-lg" style="color: var(--color-primary-text);">
+              {{ $name | humanize }}
+          </a>
+        {{end}}
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

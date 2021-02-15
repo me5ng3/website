@@ -1,0 +1,7 @@
+main:
+  - name: About me
+    url: '/authors/brian'
+    weight: 1
+  - name: Browse
+    url: '/browse'
+    weight: 2
