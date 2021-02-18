@@ -3,7 +3,7 @@ title: Eulers totient function and the RSA cryptosystem
 description:
 toc: true
 authors:
-  - Brian P
+  - Brian
 tags:
   - RSA
   - Math

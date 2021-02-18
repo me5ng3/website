@@ -3,7 +3,7 @@ title: Chord - the peer-to-peer lookup protocol
 description:
 toc: true
 authors:
-  - Brian P
+  - Brian
 tags:
   - DHT
   - peer to peer
