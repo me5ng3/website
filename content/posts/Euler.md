@@ -1,5 +1,5 @@
 ---
-title: Euler's totient function and the RSA cryptosystem
+title: Eulers totient function and the RSA cryptosystem
 description:
 toc: true
 authors:
