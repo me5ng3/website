@@ -1,5 +1,5 @@
 ---
-title: Chord: the peer-to-peer lookup protocol
+title: Chord - the peer-to-peer lookup protocol
 description:
 toc: true
 authors:
