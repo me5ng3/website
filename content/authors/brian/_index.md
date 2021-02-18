@@ -2,7 +2,7 @@
 title: Brian P
 role: Student
 avatar: images/icon.png
-bio: Compsci student in Germany.
+bio: Compsci student from Romania living in Germany. I write about Go, math stuff, and random stuff.
 organization:
   name: RWTH, DE
   url: https://rwth-aachen.de
