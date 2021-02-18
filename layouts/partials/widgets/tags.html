@@ -1,4 +1,4 @@
-{{ range $name, $taxonomy := .Site.Taxonomies.series}}
+{{ range $name, $taxonomy := .Site.Taxonomies.categories}}
 	{{ with $.Site.GetPage (printf "/series/%s" $name) }}
     <a href={{ .RelPermalink }} class="tagChip hover:shadow-lg" style="color: var(--color-primary-text);margin-bottom:0px;">
       {{ $name | humanize }}
