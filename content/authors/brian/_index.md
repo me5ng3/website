@@ -9,7 +9,7 @@ organization:
 social:
   - icon: envelope
     iconPack: fas
-    url: brian@me5ng3.dev
+    url: mailto:brian@me5ng3.dev
   - icon: github
     iconPack: fab
     url: https://github.com/me5ng3
