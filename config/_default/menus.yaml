@@ -2,7 +2,7 @@ main:
   - name: About me
     url: '/authors/brian'
     weight: 1
-  - posts: Posts
+  - name: Posts
     url: '/posts'
     weight: 2
   - name: Browse
