@@ -2,6 +2,9 @@ main:
   - name: About me
     url: '/authors/brian'
     weight: 1
+  - posts: Posts
+    url: '/posts'
+    weight: 2
   - name: Browse
     url: '/browse'
-    weight: 2
+    weight: 3
